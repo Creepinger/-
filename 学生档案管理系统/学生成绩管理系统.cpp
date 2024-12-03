@@ -20,8 +20,10 @@ int main()
     return w.exec();
     */
 
-
-    get_score();
+    Management m;
+    m.readFile("student.txt");
+    m.writeFile("student.txt",3);
+    //get_score();
 
    
     return 0;
